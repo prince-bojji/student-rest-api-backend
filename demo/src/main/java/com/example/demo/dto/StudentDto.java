@@ -1,5 +1,3 @@
-package com.example.demo.dto;
-
 /*
  * This class is a data transfer object used to transfer data 
  * between layers (e.g., controller, service, repository).
@@ -10,6 +8,8 @@ package com.example.demo.dto;
  * It doesn't contain any persistence annotations (`@Entity`, etc.) 
  * as it's not an entity but a plain Java object.
  */
+
+package com.example.demo.dto;
 
 public class StudentDto {
     private int id;
